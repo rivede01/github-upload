@@ -6,7 +6,10 @@ public class PokeAspects{
         String type,
         Boolean holoFoilAvailable,
         int stage
-        ) {
+        ) {}
+}
+
+        /* original output:
             System.out.println(
                 "Pokedex Number: " + pokedexNumber + "\r\n"+
                 "Pokemon: " + name + "\r\n"+
@@ -15,5 +18,4 @@ public class PokeAspects{
                 "Holofoil Available?: "+ holoFoilAvailable + "\r\n"+
                 "Stage: "+ stage + "\r\n"
                 );
-        }
-}
+        */
